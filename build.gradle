@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
 group 'com.maximde'
@@ -26,3 +27,13 @@ test {
     useJUnitPlatform()
 }
 
+
+shadowJar {
+    baseName = 'PluginUtils'
+    version = '1.0'
+    classifier = null
+}
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
