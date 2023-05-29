@@ -2,27 +2,27 @@
 
 # Gradle
 
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
+repositories {
+	maven { url 'https://jitpack.io' }
+}
     
-    	dependencies {
-	        implementation 'com.github.JavaDevMC:1.2'
-	  }
+dependencies {
+	implementation 'com.github.JavaDevMC:1.2'
+}
   
-  # Maven
+# Maven
   
-  <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
   
-  <dependency>
-	    <groupId>com.github.JavaDevMC</groupId>
-	    <artifactId>PluginUtils</artifactId>
-	    <version>1.2</version>
-	</dependency>
+<dependency>
+	<groupId>com.github.JavaDevMC</groupId>
+	<artifactId>PluginUtils</artifactId>
+	<version>1.2</version>
+</dependency>
 
 
