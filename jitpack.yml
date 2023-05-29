@@ -4,4 +4,4 @@ before_install:
   - sdk update
 
 jdk:
-  - openjdk17
+  - openjdk16
