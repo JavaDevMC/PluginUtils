@@ -7,7 +7,7 @@ repositories {
 }
     
 dependencies {
-	implementation 'com.github.JavaDevMC:1.2'
+	implementation 'com.github.MaximFiedler:1.2'
 }
 ```
 
@@ -24,7 +24,7 @@ dependencies {
 </repositories>
   
 <dependency>
-	<groupId>com.github.JavaDevMC</groupId>
+	<groupId>com.github.MaximFiedler</groupId>
 	<artifactId>PluginUtils</artifactId>
 	<version>1.2</version>
 </dependency>
